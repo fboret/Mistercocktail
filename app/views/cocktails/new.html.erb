@@ -1,0 +1,6 @@
+<h1>Créez le cocktail de tes rêves !</h1>
+
+<%= bootstrap_form_for(@cocktail) do |f| %>
+  <%= f.text_field :name %>
+  <%= f.submit "Sauvegardez", class: "btn btn-primary" %>
+<% end %>
